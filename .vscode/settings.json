@@ -3,21 +3,13 @@
         "."
     ],
     "java.project.referencedLibraries": [
-        "javafx\\lib\\javafx.base.jar",
-        "javafx\\lib\\javafx.controls.jar",
-        "javafx\\lib\\javafx.fxml.jar",
-        "javafx\\lib\\javafx.graphics.jar",
-        "javafx\\lib\\javafx.media.jar",
-        "javafx\\lib\\javafx.swing.jar",
-        "javafx\\lib\\javafx.web.jar",
-        "javafx\\lib\\javafx-swt.jar",
-        "c:\\Users\\Andrew\\Documents\\cs205-chess\\lib\\javafx.controls.jar",
-        "c:\\Users\\Andrew\\Documents\\cs205-chess\\lib\\javafx-swt.jar",
-        "c:\\Users\\Andrew\\Documents\\cs205-chess\\lib\\javafx.web.jar",
-        "c:\\Users\\Andrew\\Documents\\cs205-chess\\lib\\javafx.swing.jar",
-        "c:\\Users\\Andrew\\Documents\\cs205-chess\\lib\\javafx.base.jar",
-        "c:\\Users\\Andrew\\Documents\\cs205-chess\\lib\\javafx.graphics.jar",
-        "c:\\Users\\Andrew\\Documents\\cs205-chess\\lib\\javafx.fxml.jar",
-        "c:\\Users\\Andrew\\Documents\\cs205-chess\\lib\\javafx.media.jar"
+        "c:\\Program Files\\Java\\javafx\\lib\\javafx.base.jar",
+        "c:\\Program Files\\Java\\javafx\\lib\\javafx.controls.jar",
+        "c:\\Program Files\\Java\\javafx\\lib\\javafx.fxml.jar",
+        "c:\\Program Files\\Java\\javafx\\lib\\javafx.graphics.jar",
+        "c:\\Program Files\\Java\\javafx\\lib\\javafx.media.jar",
+        "c:\\Program Files\\Java\\javafx\\lib\\javafx.swing.jar",
+        "c:\\Program Files\\Java\\javafx\\lib\\javafx.web.jar",
+        "c:\\Program Files\\Java\\javafx\\lib\\javafx-swt.jar"
     ]
 }
