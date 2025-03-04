@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48ceaf01-8473-472b-b36c-5b750f349b63}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="chess-pieces\bishopblack.png" />
+    <Content Include="chess-pieces\bishopwhite.png" />
+    <Content Include="chess-pieces\kingblack.png" />
+    <Content Include="chess-pieces\kingwhite.png" />
+    <Content Include="chess-pieces\knightblack.png" />
+    <Content Include="chess-pieces\knightwhite.png" />
+    <Content Include="chess-pieces\pawnblack.png" />
+    <Content Include="chess-pieces\pawnwhite.png" />
+    <Content Include="chess-pieces\queenblack.png" />
+    <Content Include="chess-pieces\queenwhite.png" />
+    <Content Include="chess-pieces\rookblack.png" />
+    <Content Include="chess-pieces\rookwhite.png" />
+    <Content Include="jdk-23\conf\security\policy\README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="chess-pieces" />
+    <Folder Include="jdk-23\" />
+    <Folder Include="jdk-23\conf\" />
+    <Folder Include="jdk-23\conf\security\" />
+    <Folder Include="jdk-23\conf\security\policy" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.9" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
